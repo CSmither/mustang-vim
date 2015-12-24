@@ -54,6 +54,12 @@ hi Todo       guifg=#000000 guibg=#e6ea50 gui=italic
 " Code-specific colors
 hi pythonOperator guifg=#7e8aa2 gui=none ctermfg=103
 
+" My personal (dark background) diff colours.
+hi DiffDelete guifg=#303030 guibg=#505050
+hi DiffAdd    guibg=#002851
+hi DiffChange guibg=#450303
+hi DiffText   guibg=#990909 gui=none
+
 " NERDTree colors
 hi NERDTreeFile     guifg=#cdd2db ctermfg=250
 hi NERDTreeDir      guifg=#a5aebe ctermfg=111
