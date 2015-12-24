@@ -1,6 +1,6 @@
-" Maintainer:	Henrique C. Alves (hcarvalhoalves@gmail.com)
+" Maintainer:	Brian McIlwain (bmcilw1@gmail.com)
 " Version:      1.0
-" Last Change:	September 25 2008
+" Last Change:	Dec 24 2015
 
 set background=dark
 
@@ -31,7 +31,7 @@ hi StatusLine   guifg=#d3d3d5 guibg=#444444 gui=italic ctermfg=253 ctermbg=238 c
 hi StatusLineNC guifg=#939395 guibg=#444444 gui=none ctermfg=246 ctermbg=238
 hi VertSplit    guifg=#444444 guibg=#444444 gui=none ctermfg=238 ctermbg=238
 hi Folded       guifg=#a0a8b0 guibg=#202020 gui=none ctermbg=4 ctermfg=248
-hi Title        guifg=#f6f3e8 guibg=NONE	  gui=bold ctermfg=254 cterm=bold
+hi Title        guifg=#f6f3e8 guibg=NONE    gui=bold ctermfg=254 cterm=bold
 hi Visual       guifg=#faf4c6 guibg=#3c414c gui=none ctermfg=254 ctermbg=4
 hi SpecialKey   guifg=#808080 guibg=#202020 gui=none ctermfg=244 ctermbg=236
 
@@ -51,14 +51,19 @@ hi Special    guifg=#ff9800 gui=none ctermfg=208
 hi PreProc    guifg=#faf4c6 gui=none ctermfg=230
 hi Todo       guifg=#000000 guibg=#e6ea50 gui=italic
 
+hi SpellBad guifg=NONE guibg=NONE gui=undercurl ctermfg=170 ctermbg=NONE cterm=underline guisp=#ff0000" undercurl color
+hi SpellCap guifg=NONE guibg=NONE gui=undercurl ctermfg=228 ctermbg=NONE cterm=underline guisp=#ffff87" undercurl color
+hi SpellLocal guifg=NONE guibg=NONE gui=undercurl ctermfg=228 ctermbg=NONE cterm=underline guisp=#ffff87" undercurl color
+hi SpellRare guifg=NONE guibg=NONE gui=undercurl ctermfg=228 ctermbg=NONE cterm=underline guisp=#ffff87" undercurl color
+
 " Code-specific colors
 hi pythonOperator guifg=#7e8aa2 gui=none ctermfg=103
 
 " My personal (dark background) diff colours.
-hi DiffDelete guifg=#303030 guibg=#505050
-hi DiffAdd    guibg=#002851
-hi DiffChange guibg=#450303
-hi DiffText   guibg=#990909 gui=none
+hi DiffDelete cterm=NONE ctermfg=196 ctermbg=NONE gui=none guifg=bg guibg=Red
+hi DiffAdd    cterm=NONE ctermfg=10 ctermbg=NONE gui=none guifg=bg guibg=Red
+hi DiffChange cterm=NONE ctermfg=NONE ctermbg=17 gui=none guifg=bg guibg=Red
+hi DiffText   cterm=NONE ctermfg=NONE ctermbg=52 gui=none guifg=bg guibg=Red
 
 " NERDTree colors
 hi NERDTreeFile     guifg=#cdd2db ctermfg=250
