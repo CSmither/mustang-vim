@@ -59,13 +59,11 @@ hi SpellRare      guifg=NONE    guibg=NONE    gui=undercurl guisp=#ffff87 ctermf
 " Code-specific colors
 hi pythonOperator guifg=#7e8aa2               gui=none                    ctermfg=103
 
-" My personal (dark background) diff colours.
+" My personal (dark background) diff colours. here
 hi DiffDelete     guifg=#af0000 guibg=#202020                             ctermfg=124  ctermbg=234
 hi DiffAdd        guifg=NONE    guibg=#202020 gui=undercurl guisp=#00df00 ctermfg=40   ctermbg=234  cterm=underline
 hi DiffChange     guifg=NONE    guibg=#202020 gui=none                    ctermfg=none ctermbg=234
 hi DiffText       guifg=NONE    guibg=NONE    gui=undercurl guisp=#ffff00 ctermfg=11   ctermbg=234  cterm=underline
- " sldjf
- "hi sidf 
 
 " NERDTree colors
 hi NERDTreeFile   guifg=#cdd2db                                           ctermfg=250
