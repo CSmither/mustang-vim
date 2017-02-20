@@ -51,7 +51,7 @@ hi Special        guifg=#ff9800               gui=none                    ctermf
 hi PreProc        guifg=#faf4c6               gui=none                    ctermfg=230
 hi Todo           guifg=#000000 guibg=#e6ea50 gui=italic                
 
-hi SpellBad       guifg=NONE    guibg=NONE    gui=undercurl guisp=#ff0000 ctermfg=170 ctermbg=NONE cterm=underline
+hi SpellBad       guifg=NONE    guibg=NONE    gui=undercurl guisp=#af00af ctermfg=127 ctermbg=NONE cterm=underline
 hi SpellCap       guifg=NONE    guibg=NONE    gui=undercurl guisp=#ffff87 ctermfg=228 ctermbg=NONE cterm=underline
 hi SpellLocal     guifg=NONE    guibg=NONE    gui=undercurl guisp=#ffff87 ctermfg=228 ctermbg=NONE cterm=underline
 hi SpellRare      guifg=NONE    guibg=NONE    gui=undercurl guisp=#ffff87 ctermfg=228 ctermbg=NONE cterm=underline
