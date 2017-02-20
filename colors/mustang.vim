@@ -49,7 +49,7 @@ hi Constant       guifg=#ff9800               gui=none                    ctermf
 hi Number         guifg=#ff9800               gui=none                    ctermfg=208
 hi Special        guifg=#ff9800               gui=none                    ctermfg=208
 hi PreProc        guifg=#faf4c6               gui=none                    ctermfg=230
-hi Todo           guifg=#000000 guibg=#e6ea50 gui=italic                
+hi Todo           guifg=#000000 guibg=#ffff00 gui=italic                  ctermfg=0   ctermbg=11
 
 hi SpellBad       guifg=NONE    guibg=NONE    gui=undercurl guisp=#ff00ff ctermfg=13  ctermbg=NONE cterm=underline
 hi SpellCap       guifg=NONE    guibg=NONE    gui=undercurl guisp=#ffff87 ctermfg=228 ctermbg=NONE cterm=underline
@@ -60,10 +60,10 @@ hi SpellRare      guifg=NONE    guibg=NONE    gui=undercurl guisp=#ffff87 ctermf
 hi pythonOperator guifg=#7e8aa2               gui=none                    ctermfg=103
 
 " My personal (dark background) diff colours.
-hi DiffDelete     guifg=bg      guibg=Red     gui=none                    ctermfg=196 ctermbg=NONE cterm=NONE 
-hi DiffAdd        guifg=bg      guibg=Red     gui=none                    ctermfg=10  ctermbg=NONE cterm=NONE 
-hi DiffChange     guifg=bg      guibg=Red     gui=none                    ctermfg=NONE ctermbg=17  cterm=NONE 
-hi DiffText       guifg=bg      guibg=Red     gui=none                    ctermfg=NONE ctermbg=52  cterm=NONE 
+hi DiffDelete     guifg=#af0000 guibg=#202020                             ctermfg=124 ctermbg=234
+hi DiffAdd        guifg=#00d700 guibg=#202020                             ctermfg=40  ctermbg=234
+hi DiffChange     guifg=#ffffff guibg=#ff00ff                             ctermfg=255 ctermbg=13 
+hi DiffText       guifg=NONE    guibg=NONE                                ctermfg=NONE ctermbg=NONE 
 
 " NERDTree colors
 hi NERDTreeFile   guifg=#cdd2db                                           ctermfg=250
