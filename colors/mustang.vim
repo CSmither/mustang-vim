@@ -62,7 +62,7 @@ hi pythonOperator guifg=#7e8aa2               gui=none                    ctermf
 " My personal (dark background) diff colours.
 hi DiffDelete     guifg=#af0000 guibg=#202020                             ctermfg=124  ctermbg=234
 hi DiffAdd        guifg=NONE    guibg=#202020 gui=undercurl guisp=#00df00 ctermfg=40   ctermbg=234  cterm=underline
-hi DiffChange     guifg=NONE    guibg=#202020 gui=none                    ctermfg=none ctermbg=234
+hi DiffChange     guifg=NONE    guibg=#202020 gui=none                    ctermfg=NONE ctermbg=234
 hi DiffText       guifg=NONE    guibg=NONE    gui=undercurl guisp=#ffff00 ctermfg=11   ctermbg=234  cterm=underline
 
 " NERDTree colors
